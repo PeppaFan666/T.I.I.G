@@ -14,4 +14,6 @@ T.I.I.G Is written in NodeJS using Discord.js
 You will need:
 
 1. Nodejs
+2. *Discord.js*
+  a. https://discord.js.org/
 
