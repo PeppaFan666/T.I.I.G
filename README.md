@@ -18,7 +18,7 @@ You will need:
 1. Nodejs
 2. *Discord.js*
 
-Then you will need to create a new discord developer application, and add you token to the config.js. 
+Then you will need to create a new discord developer application, and add your token to the config.js. 
 
 https://discord.js.org/
 
