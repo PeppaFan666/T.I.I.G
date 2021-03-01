@@ -15,5 +15,7 @@ You will need:
 
 1. Nodejs
 2. *Discord.js*
-  a. https://discord.js.org/
+
+
+https://discord.js.org/
 
