@@ -1,7 +1,10 @@
-const Discord = require("discord.js");
-const config = require("./config.json");
+const Discord = require('discord.js');
 const client = new Discord.Client();
-
+const config = require('./config.json')
+  client.login(config.token);
+client.once('ready', () => {
+	console.log('Bot Ready');
+});
 client.on("message", (message) => {
   if (message.content.startsWith("!Item")) { 
     message.reply(GetMessage());
@@ -9,7 +12,7 @@ client.on("message", (message) => {
 
 function GetMessage()
 {
-    var NewMessage = 'This item should be ' + Class() +' Class, the item Type should be' + Type() + '. The Item Gimmick should be' + Gimmick() + '.'
+    var NewMessage = 'This item should be ' + Class() +' Class, the item Type should be ' + Type() + '. The Item Gimmick should be ' + Gimmick() + '.'
     return NewMessage;
 }
 function Class()
@@ -46,5 +49,5 @@ function shuffle(array) {
   
     return array;
   }
-  client.login(config.token);
+
   
