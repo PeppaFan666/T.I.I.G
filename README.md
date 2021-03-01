@@ -1,15 +1,15 @@
 # T.I.I.G
 
-#Intro
+# Intro
 
 T.I.I.G Is a discord bot for generating Terraria ideas.
 
 
-#Framework
+# Framework
 
 T.I.I.G Is written in NodeJS using Discord.js
 
-#Building 
+# Building 
 
 You will need:
 
